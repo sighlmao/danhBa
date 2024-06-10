@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "578337478100",
+    "firebase_url": "https://danhba-d4dd9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "danhba-d4dd9",
+    "storage_bucket": "danhba-d4dd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578337478100:android:d01dde4a17d73749437241",
+        "android_client_info": {
+          "package_name": "com.example.danhba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAj2HriojqL4oCDhVamzMvhKFI2YmezRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
