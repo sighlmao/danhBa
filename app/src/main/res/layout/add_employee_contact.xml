@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextDepartmentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã đơn vị"/>
+
+    <EditText
+        android:id="@+id/editTextDepartmentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên đơn vị"/>
+
+    <EditText
+        android:id="@+id/editTextDepartmentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/editTextDepartmentWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Website"/>
+
+    <EditText
+        android:id="@+id/editTextDepartmentAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ"/>
+
+    <EditText
+        android:id="@+id/editTextDepartmentPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"/>
+
+    <Button
+        android:id="@+id/buttonAddDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm đơn vị"/>
+
+</LinearLayout>
