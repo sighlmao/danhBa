@@ -18,10 +18,10 @@ public class addDepartmentActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_department);
+        setContentView(R.layout.add_department_contact);
 
-        editTextName = findViewById(R.id.editTextName);
-        buttonSave = findViewById(R.id.buttonSave);
+        editTextName = findViewById(R.id.editTextEmployeeFullName); // Sửa ID ở đây
+        buttonSave = findViewById(R.id.buttonAddEmployee); // Sửa ID ở đây
 
         buttonSave.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,7 +44,7 @@ public class addDepartmentActivity extends AppCompatActivity {
         newDepartment.setName(name);
 
         Intent resultIntent = new Intent();
-        resultIntent.putExtra("newDepartment", newDepartment);
+        resultIntent.putExtra("newDepartment", (CharSequence) newDepartment);
         setResult(RESULT_OK, resultIntent);
         finish();
     }

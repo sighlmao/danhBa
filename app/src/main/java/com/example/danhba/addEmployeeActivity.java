@@ -1,5 +1,6 @@
 package com.example.danhba;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -15,13 +16,14 @@ public class addEmployeeActivity extends AppCompatActivity {
     private EditText editTextName;
     private Button buttonSave;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_department_contact);
 
-        editTextName = findViewById(R.id.editTextName);
-        buttonSave = findViewById(R.id.buttonSave);
+        editTextName = findViewById(R.id.editTextDepartmentName); // Sửa ID ở đây
+        buttonSave = findViewById(R.id.buttonAddDepartment); // Sửa ID ở đây
 
         buttonSave.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +43,7 @@ public class addEmployeeActivity extends AppCompatActivity {
 
         // Tạo đối tượng Employee mới và truyền lại kết quả cho MainActivity
         Employee newEmployee = new Employee();
-        newEmployee.setName(name);
+        newEmployee.setFullName(name);
 
         Intent resultIntent = new Intent();
         resultIntent.putExtra("newEmployee", newEmployee);

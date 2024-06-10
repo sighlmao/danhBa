@@ -22,7 +22,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:contentDescription="Avatar"
-        android:src="@drawable/default_avatar" />
+         />
 
     <EditText
         android:id="@+id/editTextEmployeeId"

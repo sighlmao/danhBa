@@ -22,7 +22,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:contentDescription="Logo"
-        android:src="@drawable/default_logo" />
+         />
 
     <EditText
         android:id="@+id/editTextDepartmentId"
